@@ -125,7 +125,7 @@ class PostController extends Controller
         return redirect()->route('posts.index');
 
 
-
+print_r(1);
 
       /*  $request->validate(
             [
