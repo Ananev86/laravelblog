@@ -116,8 +116,7 @@ class PostController extends Controller
     {
 
 
-     //   dd($request->file('thumbnail')->getClientOriginalName());
-        $post=Post::find($id);
+          $post=Post::find($id);
        // if($request->hasFile('thumbnail'))
 
        /* {
