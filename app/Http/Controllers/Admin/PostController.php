@@ -148,6 +148,7 @@ print_r(1);
      */
     public function destroy($id)
     {
+        //1
         $cat=Category::find($id);
         $cat->delete();
         // $request->session()->flash('success','categoria ydalenaa');
