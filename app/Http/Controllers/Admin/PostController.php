@@ -19,6 +19,7 @@ class PostController extends Controller
     public function index()
     {
  echo 888;
+ echo 999;
 
         $posts=Post::paginate(20);
         return view('admin.posts.index',compact('posts'));
